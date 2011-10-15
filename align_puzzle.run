@@ -1,0 +1,10 @@
+#! /bin/sh
+
+clear
+gcc align_puzzle.c -o align_puzzle
+cat align_puzzle.c
+echo ----------------------------- Program out: ----------------------------- 
+echo
+./align_puzzle
+rm align_puzzle
+
